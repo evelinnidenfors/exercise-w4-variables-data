@@ -90,6 +90,5 @@ Should give you => "Today we have a special winter deal!"
 (check for a specific string method...)
 */
 const sentence = "Today we have a special summer deal!";
-sentence.replace("summer", "winter");
 
-console.log(sentence);
+console.log(sentence.replace("summer", "winter"));
